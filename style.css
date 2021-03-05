@@ -49,38 +49,61 @@ body{
     height: 180px;
 }
 
-
-/* .score-box{
+.text{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height:15vh;
-} */
-
-.human-score{
-}
-
-.computer-score{
-    
-}
-
-/* .box{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    height:30vh;
-}
-
-.playerBox{
-    margin:100px;
-    width: 180px;
-    border: 5px solid black;
+    max-width: 300px;
     height: 100%;
 }
 
-.computerBox{
-    margin: 100px;
-    width: 180px;
-    border: 5px solid black;
+.bottom-contents{
+    display: flex;
+    width: auto;
+    height: 35vh;
+}
+
+.playerChoices{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    width: 40vw;
     height: 100%;
-} */
+}
+
+.button{
+    background-color: bisque;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 15px 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.tryAgain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height:100%;
+}
+
+.refreshGameButton{
+    background-color: rgb(229, 143, 143);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.aiMumble{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40vw;
+    height: 100%;
+}
