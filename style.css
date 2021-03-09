@@ -7,6 +7,7 @@
 }
 body{
     background-color: bisque;
+    font-family: Press Start 2P;
 }
 
 .head-content{
@@ -39,14 +40,18 @@ body{
 
 .player-box{
     width: 180px;
-    border: 5px solid black;
     height: 180px;
+    background-image: url('https://yugo-r.github.io/image-repo/questionMarkN.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .computer-box{
     width: 180px;
-    border: 5px solid black;
     height: 180px;
+    background-image: url('https://yugo-r.github.io/image-repo/questionMarkN.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .text{
@@ -78,6 +83,7 @@ body{
     padding: 15px 30px;
     transition-duration: 0.4s;
     cursor: pointer;
+    outline: none;
 }
 
 .button:hover{
@@ -90,6 +96,11 @@ body{
     justify-content: center;
     width: 20vw;
     height:100%;
+}
+
+.refreshGameButton{
+    display: none;
+    cursor: pointer;
 }
 
 .refreshGameButton{
